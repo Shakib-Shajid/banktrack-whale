@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+body {
+  background-color: white;
+  color: black;
+}
+
+[data-theme="dark"] {
+  background-color: black;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add this CSS to your global styles or a relevant CSS file */
+
+#calendly-root {
+  overflow: hidden !important; /* Ensure the root element hides overflow */
+}
+
+.calendly-popup {
+  overflow: hidden !important; /* Hide overflow in the Calendly popup */
+}
+
+/* Hide scrollbar for different browsers */
+.calendly-popup::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+.calendly-popup {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
