@@ -4,6 +4,14 @@ import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { IoIosArrowDown } from "react-icons/io";
 
+import { DM_Sans } from 'next/font/google';
+
+const dmSans = DM_Sans({
+  subsets: ['latin'],
+  weight: ['400', '500', '700'],
+});
+
+
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
 
@@ -116,7 +124,7 @@ const Navbar = () => {
                     </ul>
                 </div>
             </li>
-            {/* <li>
+             {/* <li>
                 <div className="dropdown dropdown-hover">
                     <div tabIndex={0} role="button" className="group">
                         ¿Para quién es?
@@ -230,7 +238,7 @@ const Navbar = () => {
                         <p className='ml-48 text-center mt-5 text-[#a29e9e]'>Estos son solo algunos ejemplos. Nos adaptamos a cualquier negocio. <span className='underline text-blue-600'>Ver más...</span></p>
                     </ul>
                 </div>
-            </li> */}
+            </li>  */}
             <li><Link onClick={closeModal} href="/"> ¿Para quién es?</Link></li>
             <li><Link onClick={closeModal} href="/casos-exito">Casos de éxito</Link></li>
             <li><Link onClick={closeModal} href="/precios">Contacto</Link></li>
@@ -269,7 +277,7 @@ const Navbar = () => {
     );
 
     return (
-        <div className="">
+        <div className={`${dmSans.className} font-medium`}>
             <div className={`navbar z-50 fixed ${isScrolled ? 'bg-white shadow-md' : 'bg-transparent'}`}>
                 <div className="navbar-start md:pl-12 lg:pl-32">
                     <Link href="/" legacyBehavior>
