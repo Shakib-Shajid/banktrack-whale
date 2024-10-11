@@ -7,10 +7,10 @@ const Collection = () => {
         <div className='w-full max-w-7xl mx-auto flex flex-col gap-16 items-center lg:flex-row my-20'>
             <div className='w-[80%] lg:ml-40 space-y-3'>
                 <div className='mt-10'>
-                    <h3 className='text-xl font-bold text-[#4021C8] uppercase'>SEM (ADS)</h3>
-                    <p className='text-4xl font-bold leading-tight'>Campañas publicitarias efectivas para maximizar tu ROI</p>
+                    <h3 className='text-xl font-bold text-[#4021C8] uppercase font-dm_sans'>SEM (ADS)</h3>
+                    <p className='text-4xl font-bold leading-tight font-montserrat'>Campañas publicitarias efectivas para maximizar tu ROI</p>
                 </div>
-                <div className='text-[#828080] space-y-1 w-full'>
+                <div className='text-[#828080] space-y-1 w-full font-dm_sans'>
 
                     <p><IoMdCheckmark className='inline-block mr-1' />Gestión y optimización de anuncios en Google y redes sociales</p>
                     <p><IoMdCheckmark className='inline-block mr-1' />Segmentación precisa de audiencia</p>

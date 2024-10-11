@@ -11,7 +11,7 @@ import Link from 'next/link';
 const Footer = () => {
     return (
         <div className='bg-[#FDFAF5]'>
-            <footer className="footer flex flex-col lg:grid lg:grid-cols-4 text-base-content p-5 md:p-10 w-[90%] mx-auto relative border-t-2">
+            <footer className="footer flex flex-col lg:grid lg:grid-cols-4 text-base-content p-5 md:p-10 w-[90%] mx-auto relative border-t-2 font-dm_sans">
                 <aside>
                     <Image src="/logo.png" width="70" height="70" alt="" className='absolute right-0 lg:relative' />
                 </aside>
@@ -57,7 +57,7 @@ const Footer = () => {
                 </nav>
             </footer>
             
-            <footer className="footer px-5 md:px-10 py-4 w-[90%] mx-auto gap-4 text-[#888585] flex flex-col text-start lg:grid pt-10 pb-20">
+            <footer className="footer px-5 md:px-10 py-4 w-[90%] mx-auto gap-4 text-[#888585] flex flex-col text-start lg:grid pt-10 pb-20 font-dm_sans">
                 <div className='lg:flex gap-2 items-baseline'>
                     <form>
                         <select className='border-2 text-black'>
