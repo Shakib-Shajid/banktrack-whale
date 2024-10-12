@@ -33,8 +33,8 @@ const page = () => {
                                 <button className='btn btn-lg text-white rounded-full w-full lg:w-[80%] bg-[#4021C8] font-montserrat'>Acceder </button>
                             </div>
                         </div>
-                        <div className='flex justify-between w-[80%] md:w-full lg:w-[80%] mx-auto text-xs'>
-                            <span className='underline text-[#9b9a9a]'>¿Olvidado la contraseña?</span>
+                        <div className='flex justify-between w-[80%] md:w-full lg:w-[80%] mx-auto text-xs font-dm_sans'>
+                            <span className=' font-dm_sans'>¿Olvidado la contraseña?</span>
                             <Link href="/registrarse"><span className='underline text-[#9b9a9a]'>Aún no tengo cuenta</span></Link>
                         </div>
                     </div>

@@ -31,7 +31,8 @@ const page = () => {
                             <div className='py-5'>
                                 <button className='btn btn-lg text-white rounded-full w-full bg-[#4021C8] font-montserrat'>Empezar</button>
                             </div>
-                            <Link href="/iniciar-sesion"><p className='text-xs underline text-[#9b9a9a]'>Ya tengo cuenta</p></Link>
+                            <p className='text-xs text-[#9b9a9a] pb-5'>Al hacer clic en Empezar aceptas la <Link href="/privacy" target="_blank" className='underline'>Política de privacidad</Link> y las <br /> <Link href="/terms" className='underline' target="_blank">Condiciones generales de uso y contratación</Link></p>
+                            <Link href="/iniciar-sesion"><p className='text-xs underline text-[#9b9a9a] font-dm_sans'>Ya tengo cuenta</p></Link>
                         </div>
 
                     </div>
