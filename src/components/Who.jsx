@@ -11,7 +11,7 @@ const Who = () => {
     };
 
     return (
-        <div className="text-center w-full my-20" id="soluciones">
+        <div className="text-center w-full my-20" id="soluciones" data-aos="fade-down">
             <div>
                 <h3 className="text-3xl md:text-5xl font-bold font-montserrat">¿Para quién es?</h3>
                 <p className="text-2xl md:text-xl lg:text-2xl w-full md:w-[80%] lg:w-[50%] mx-auto my-10 font-dm_sans">
@@ -48,7 +48,7 @@ const Who = () => {
             <div className="flex flex-col lg:flex-row gap-10 mt-10 h-full lg:w-[95%] mx-auto">
                 <div className="lg:w-[40%]">
                     {/* Show different images based on the active button */}
-                    {activeButton === 1 && <Image src="/who_1.png" width="500" height="500" alt="Empresas" className="lg:rounded-r-3xl w-full h-[30rem] md:h-[48rem]" />}
+                    {activeButton === 1 && <Image src="/who_1.png" width="500" height="500" alt="Empresas" className="lg:rounded-r-3xl w-full h-[30rem] md:h-[48rem]"  />}
                     {activeButton === 2 && <Image src="/who_2.png" width="500" height="500" alt="Autónomos" className="lg:rounded-r-3xl w-full h-[30rem] md:h-[48rem]" />}
                     {activeButton === 3 && <Image src="/who_3.png" width="500" height="500" alt="Particulares" className="lg:rounded-r-3xl w-full h-[30rem] md:h-[48rem]" />}
                 </div>

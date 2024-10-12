@@ -18,7 +18,7 @@ import { Pagination } from 'swiper/modules';
 
 const ClientResponse = () => {
     return (
-        <div className="my-20 font-montserrat">
+        <div className="my-20 font-montserrat" data-aos="zoom-in">
             <div className="flex flex-col justify-center text-center">
                 <h2 className="text-3xl lg:text-5xl font-bold md:w-[80%] lg:w-full mx-auto">“Me da una visión clara de todos mis <br className="hidden lg:grid" /> ingresos y gastos”</h2>
                 <p className="text-xl lg:text-2xl font-bold mt-5 mb-1">Kike</p>

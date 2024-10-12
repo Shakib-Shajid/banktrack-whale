@@ -16,7 +16,7 @@ const page = () => {
                 <div className='w-[80%] mx-auto lg:w-[60%] flex justify-center items-center text-center pt-5'>
 
                     <div className="flex flex-col border-opacity-50" >
-                        <Image src="/logo.svg" height="150" width="150" alt="" className='lg:hidden'/>
+                        {/* <Image src="/logo.svg" height="150" width="150" alt="" className='lg:hidden'/> */}
                         <div>
                             <div className='w-full text-start lg:text-center'>
                                 <h3 className='text-2xl lg:text-4xl font-bold font-montserrat'>Actualiza la contraseña</h3>

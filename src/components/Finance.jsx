@@ -4,7 +4,7 @@ import { IoMdCheckmark } from "react-icons/io";
 
 const Finance = () => {
     return (
-        <div className='w-full max-w-7xl mx-auto flex flex-col gap-10 justify-center items-center lg:flex-row-reverse'>
+        <div className='w-full max-w-7xl mx-auto flex flex-col gap-10 justify-center items-center lg:flex-row-reverse' data-aos="fade-right">
             <div className='w-[80%] lg:ml-10 space-y-3'>
                 <h3 className='text-xl font-bold text-[#4021C8] uppercase font-dm_sans'>SEO</h3>
                 <p className='text-4xl font-bold leading-tight font-montserrat'>Mejora tu visibilidad y atrae más tráfico orgánico</p>
