@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 import { FcGoogle } from "react-icons/fc";
 
@@ -13,7 +14,7 @@ const page = () => {
                         <Image src="/register.png" width="500" height="500" alt="" className='' />
                     </div>
                 </div>
-                <div className='md:w-[80%] mx-auto lg:w-[70%] flex justify-center text-center pt-10'>
+                <div className='md:w-[80%] mx-auto lg:w-[60%] flex justify-center text-center pt-5'>
 
                     <div className="flex flex-col border-opacity-50" >
                         <div>
@@ -29,12 +30,17 @@ const page = () => {
                             <input type="email" placeholder="Tu correo electrónico" className="input input-bordered w-full lg:w-[80%] font-dm_sans" />
                             <input type="password" placeholder="Contraseña" className="input input-bordered w-full lg:w-[80%] font-dm_sans" />
                             <div className='py-5'>
-                                <button className='btn btn-lg text-white rounded-full w-full lg:w-[80%] bg-[#4021C8] font-montserrat'>Empezar</button>
+                                <button className='btn btn-lg text-white rounded-full w-full lg:w-[80%] bg-[#4021C8] font-montserrat'>Acceder </button>
                             </div>
                         </div>
+                        <div className='flex justify-between w-[80%] md:w-full lg:w-[80%] mx-auto text-xs'>
+                            <span className='underline text-[#9b9a9a]'>¿Olvidado la contraseña?</span>
+                            <Link href="/registrarse"><span className='underline text-[#9b9a9a]'>Aún no tengo cuenta</span></Link>
+                        </div>
                     </div>
-
+                    
                 </div>
+
             </div>
         </div>
     );

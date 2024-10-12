@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 import { FcGoogle } from "react-icons/fc";
 
@@ -30,6 +31,7 @@ const page = () => {
                             <div className='py-5'>
                                 <button className='btn btn-lg text-white rounded-full w-full bg-[#4021C8] font-montserrat'>Empezar</button>
                             </div>
+                            <Link href="/iniciar-sesion"><p className='text-xs underline text-[#9b9a9a]'>Ya tengo cuenta</p></Link>
                         </div>
 
                     </div>
