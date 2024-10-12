@@ -4,7 +4,7 @@ import { IoMdCheckmark } from 'react-icons/io';
 
 const Collection = () => {
     return (
-        <div className='w-full max-w-7xl mx-auto flex flex-col gap-16 items-center lg:flex-row my-20'>
+        <div className='w-full max-w-7xl mx-auto flex flex-col gap-16 items-center lg:flex-row my-20' data-aos="fade-up">
             <div className='w-[80%] lg:ml-40 space-y-3'>
                 <div className='mt-10'>
                     <h3 className='text-xl font-bold text-[#4021C8] uppercase font-dm_sans'>SEM (ADS)</h3>

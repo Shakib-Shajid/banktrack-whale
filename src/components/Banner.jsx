@@ -14,18 +14,18 @@ const Banner = () => {
 
     return (
         <div>
-            <div className="hero h-[900px] md:h-[800px] bg-[#FDFAF5]">
+            <div className="hero h-[900px] md:h-[800px] bg-[#FDFAF5]" >
                 <div className="hero-content text-center -mt-16 md:-mt-36">
                     <div className="max-w-3xl">
                         {/* <h1 className="text-4xl md:text-6xl font-bold"> */}
-                        <h1 className="font-bold text-4xl md:text-[64px] leading-[60px] text-[#222222] font-montserrat">
+                        <h1 className="font-bold text-4xl md:text-[64px] leading-[60px] text-[#222222] font-montserrat" data-aos="fade-down" data-aos-duration="1000">
                             Impulsa tu negocio con estrategias digitales efectivas
                         </h1>
-                        <p className="py-6 text-2xl max-w-2xl mx-auto font-montserrat">
+                        <p className="py-6 text-2xl max-w-2xl mx-auto font-montserrat" data-aos="fade-down" data-aos-duration="500" data-aos-delay="800">
                         Optimiza tu presencia online con nuestros servicios de SEO, 
                         SEM y desarrollo de ecommerce. ¡Lleva tu marca al siguiente nivel!
                         </p>
-                        <div className='flex justify-center gap-3 flex-col md:flex-row font-dm_sans'>
+                        <div className='flex justify-center gap-3 flex-col md:flex-row font-dm_sans' data-aos="fade-up">
                             <Link href="/registrarse">
                                 <button className="btn border-none bg-[#4021C8] text-white rounded-full btn-lg px-10 w-full">
                                     <div>Análisis SEO</div>

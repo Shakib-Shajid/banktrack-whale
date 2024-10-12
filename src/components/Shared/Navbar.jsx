@@ -4,16 +4,25 @@ import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { IoIosArrowDown } from "react-icons/io";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import { DM_Sans } from 'next/font/google';
 
 const dmSans = DM_Sans({
-  subsets: ['latin'],
-  weight: ['400', '500', '700'],
+    subsets: ['latin'],
+    weight: ['400', '500', '700'],
 });
+
+
 
 
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        AOS.init();
+    }, [])
 
     useEffect(() => {
         const handleScroll = () => {
@@ -124,7 +133,7 @@ const Navbar = () => {
                     </ul>
                 </div>
             </li>
-             {/* <li>
+            {/* <li>
                 <div className="dropdown dropdown-hover">
                     <div tabIndex={0} role="button" className="group">
                         ¿Para quién es?
@@ -277,16 +286,17 @@ const Navbar = () => {
     );
 
     return (
-        <div className={`${dmSans.className} font-medium`}>
+        <div className={`${dmSans.className} font-medium `}>
             <div className={`navbar z-50 fixed ${isScrolled ? 'bg-white shadow-md' : 'bg-transparent'}`}>
                 <div className="navbar-start md:pl-12 lg:pl-32">
                     <Link href="/" legacyBehavior>
                         <Image
-                            src="/logo-w.png"
+                            // src="/logo-w.png"
+                            src="/logo.svg"
                             width="500"
                             height="500"
                             alt="Banktrack logo"
-                            className="h-16 w-28 cursor-pointer"
+                            className="h-20 w-28 cursor-pointer"
                             priority
                         />
                     </Link>

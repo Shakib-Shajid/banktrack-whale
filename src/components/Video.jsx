@@ -35,8 +35,8 @@ const Video = () => {
                     </div>
                 </div> */}
 
-                <div className='text-xl flex gap-3 items-center justify-center lg:justify-end lg:mt-5'>
-                    <Image src="/google.png" width="100" height="100" alt="" className='inline-block' />
+                <div className='text-xl flex gap-3 items-center justify-center lg:justify-end mt-10 lg:mt-5'>
+                    <Image src="/google.png" width="1000" height="1000" alt="" className='inline-block h-12 w-32' />
                     <div className="rating">
                         <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
                         <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
