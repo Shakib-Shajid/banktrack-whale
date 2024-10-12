@@ -21,7 +21,7 @@ const Banner = () => {
                         <h1 className="font-bold text-4xl md:text-[64px] leading-[60px] text-[#222222] font-montserrat" data-aos="fade-down" data-aos-duration="1000">
                             Impulsa tu negocio con estrategias digitales efectivas
                         </h1>
-                        <p className="py-6 text-2xl max-w-2xl mx-auto font-montserrat" data-aos="fade-down" data-aos-duration="500" data-aos-delay="800">
+                        <p className="py-6 text-2xl max-w-2xl mx-auto font-montserrat" data-aos="fade-down" data-aos-duration="700" data-aos-delay="800">
                         Optimiza tu presencia online con nuestros servicios de SEO, 
                         SEM y desarrollo de ecommerce. ¡Lleva tu marca al siguiente nivel!
                         </p>
