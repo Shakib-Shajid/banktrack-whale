@@ -34,8 +34,8 @@ const page = () => {
                             </div>
                         </div>
                         <div className='flex justify-between w-[80%] md:w-full lg:w-[80%] mx-auto text-xs font-dm_sans'>
-                            <span className=' font-dm_sans'>¿Olvidado la contraseña?</span>
-                            <Link href="/registrarse"><span className='underline text-[#9b9a9a]'>Aún no tengo cuenta</span></Link>
+                            <Link href="/recuperar-contrasena" ><span className='text-[#9b9a9a] underline font-dm_sans'>¿Olvidado la contraseña?</span></Link>
+                            <Link href="/registrarse"><span className='underline text-[#9b9a9a] font-dm_sans'>Aún no tengo cuenta</span></Link>
                         </div>
                     </div>
                     
