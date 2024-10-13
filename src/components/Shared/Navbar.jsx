@@ -51,7 +51,7 @@ const Navbar = () => {
                         Servicios
                         <IoIosArrowDown className="inline-block ml-2 group-hover:rotate-180 transform-translate duration-200 ease-in" />
                     </div>
-                    <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] mt-[22rem] py-10 w-[700%] p-2 shadow">
+                    <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] mt-[22rem] py-10 w-[900%] p-2 shadow">
                         <div className='flex gap-3'>
                             <div>
                                 <li>
