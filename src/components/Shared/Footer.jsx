@@ -13,7 +13,7 @@ const Footer = () => {
         <div className='bg-[#FDFAF5]'>
             <footer className="footer flex flex-col lg:grid lg:grid-cols-4 text-base-content p-5 md:p-10 w-[90%] mx-auto relative border-t-2 font-dm_sans">
                 <aside>
-                    <Image src="/logo.png" width="70" height="70" alt="" className='absolute right-0 lg:relative' />
+                    <Image src="/logo.png" width="200" height="200" alt="" className='absolute right-0 lg:relative' />
                 </aside>
 
                 <nav className='space-y-2'>
