@@ -28,6 +28,9 @@ module.exports = {
       animation: {
         marquee: 'marquee 20s linear infinite',
       },
+      screens: {
+        'custom-1080': '1080px', // Custom breakpoint for 1080px
+      },
     },
   },
   plugins: [require('daisyui'),],
