@@ -11,7 +11,7 @@ const Who = () => {
     };
 
     return (
-        <div className="text-center w-full my-20" id="soluciones" data-aos="fade-down">
+        <div className="text-center w-full my-20 mx-auto" id="soluciones" data-aos="fade-down">
             <div>
                 <h3 className="text-3xl md:text-5xl font-bold font-montserrat">¿Para quién es?</h3>
                 <p className="text-2xl md:text-xl lg:text-2xl w-full md:w-[80%] lg:w-[50%] mx-auto my-10 font-dm_sans">
@@ -45,7 +45,7 @@ const Who = () => {
                 </button>
             </div>
 
-            <div className="flex flex-col lg:flex-row gap-10 mt-10 h-full lg:w-[95%] mx-auto">
+            <div className="flex flex-col lg:flex-row gap-10 mt-10 h-full lg:w-[90%] mx-auto">
                 <div className="lg:w-[40%]">
                     {/* Show different images based on the active button */}
                     {activeButton === 1 && <Image src="/who_1.png" width="500" height="500" alt="Empresas" className="lg:rounded-r-3xl w-full h-[30rem] md:h-[48rem]"  />}
@@ -58,7 +58,7 @@ const Who = () => {
                     {activeButton === 1 && (
                         <>
                             {/* 1st */}
-                            <div className='w-full md:w-[20rem] lg:w-[22rem]'>
+                            <div className='w-full md:w-[20rem] lg:w-[18rem]'>
                                 <div className='flex flex-col md:flex-row gap-2 md:items-center '>
                                     <Image src="/who_1_2.png" width="60" height="60" alt="" />
                                     <h3 className='text-lg font-bold text-start font-montserrat'>Panel de control financiero</h3>
@@ -66,7 +66,7 @@ const Who = () => {
                                 <p className='text-base text-start my-2 font-dm_sans'>Vistas personalizadas con la info que elijas para tener el control total de tu tesorería.</p>
                             </div>
                             {/* 2nd */}
-                            <div className='w-full md:w-[20rem] lg:w-[22rem]'>
+                            <div className='w-full md:w-[20rem] lg:w-[18rem]'>
                                 <div className='flex flex-col md:flex-row gap-2 md:items-center '>
                                     <Image src="/who_1_3.png" width="60" height="60" alt="" />
                                     <h3 className='text-lg font-bold text-start font-montserrat'>Buscador de transacciones</h3>
@@ -75,7 +75,7 @@ const Who = () => {
                             </div>
 
                             {/* 3rd */}
-                            <div className='w-full md:w-[20rem] lg:w-[22rem]'>
+                            <div className='w-full md:w-[20rem] lg:w-[18rem]'>
                                 <div className='flex flex-col md:flex-row gap-2 md:items-center '>
                                     <Image src="/who_1_4.png" width="60" height="60" alt="" />
                                     <h3 className='text-lg font-bold text-start font-montserrat'>Gestión de facturas con IA</h3>
@@ -84,7 +84,7 @@ const Who = () => {
                             </div>
 
                             {/* 4th */}
-                            <div className='w-full md:w-[20rem] lg:w-[22rem]'>
+                            <div className='w-full md:w-[20rem] lg:w-[18rem]'>
                                 <div className='flex flex-col md:flex-row gap-2 md:items-center '>
                                     <Image src="/who_1_5.png" width="60" height="60" alt="" />
                                     <h3 className='text-lg font-bold text-start font-montserrat'>Previsiones y Escenarios</h3>
@@ -93,7 +93,7 @@ const Who = () => {
                             </div>
 
                             {/* 5th */}
-                            <div className='w-full md:w-[20rem] lg:w-[22rem]'>
+                            <div className='w-full md:w-[20rem] lg:w-[18rem]'>
                                 <div className='flex flex-col md:flex-row gap-2 md:items-center '>
                                     <Image src="/who_1_6.png" width="60" height="60" alt="" />
                                     <h3 className='text-lg font-bold text-start font-montserrat'>Informes customizables</h3>
@@ -102,7 +102,7 @@ const Who = () => {
                             </div>
 
                             {/* 6th */}
-                            <div className='w-full md:w-[20rem] lg:w-[22rem]'>
+                            <div className='w-full md:w-[20rem] lg:w-[18rem]'>
                                 <div className='flex flex-col md:flex-row gap-2 md:items-center '>
                                     <Image src="/who_1_7.png" width="60" height="60" alt="" />
                                     <h3 className='text-lg font-bold text-start font-montserrat'>Alertas inteligentes</h3>
@@ -111,7 +111,7 @@ const Who = () => {
                             </div>
 
                             {/* 7th */}
-                            <div className='w-full md:w-[20rem] lg:w-[22rem]'>
+                            <div className='w-full md:w-[20rem] lg:w-[18rem]'>
                                 <div className='flex flex-col md:flex-row gap-2 md:items-center '>
                                     <Image src="/who_1_8.png" width="60" height="60" alt="" />
                                     <h3 className='text-lg font-bold text-start w-full'>
@@ -121,7 +121,7 @@ const Who = () => {
                             </div>
 
                             {/* 8th */}
-                            <div className='w-full md:w-[20rem] lg:w-[22rem]'>
+                            <div className='w-full md:w-[20rem] lg:w-[18rem]'>
                                 <div className='flex flex-col md:flex-row gap-2 md:items-center '>
                                     <Image src="/who_1_1.png" width="60" height="60" alt="" />
                                     <h3 className='text-lg font-bold text-start font-montserrat'>
@@ -135,7 +135,7 @@ const Who = () => {
                     {activeButton === 2 && (
                         <>
                             {/* 1st */}
-                            <div className='w-full md:w-[20rem] lg:w-[22rem]'>
+                            <div className='w-full md:w-[20rem] lg:w-[18rem]'>
                                 <div className='flex flex-col md:flex-row gap-2 md:items-center '>
                                     <Image src="/who_1_2.png" width="60" height="60" alt="" />
                                     <h3 className='text-lg font-bold text-start font-montserrat'>Panel de control financiero</h3>
@@ -143,7 +143,7 @@ const Who = () => {
                                 <p className='text-base text-start my-2 font-dm_sans'>Vistas personalizadas con la info que elijas para tener el control total de tu tesorería.</p>
                             </div>
                             {/* 2nd */}
-                            <div className='w-full md:w-[20rem] lg:w-[22rem]'>
+                            <div className='w-full md:w-[20rem] lg:w-[18rem]'>
                                 <div className='flex flex-col md:flex-row gap-2 md:items-center '>
                                     <Image src="/who_1_3.png" width="60" height="60" alt="" />
                                     <h3 className='text-lg font-bold text-start font-montserrat'>Buscador de transacciones</h3>
@@ -152,7 +152,7 @@ const Who = () => {
                             </div>
 
                             {/* 3rd */}
-                            <div className='w-full md:w-[20rem] lg:w-[22rem]'>
+                            <div className='w-full md:w-[20rem] lg:w-[18rem]'>
                                 <div className='flex flex-col md:flex-row gap-2 md:items-center '>
                                     <Image src="/who_1_4.png" width="60" height="60" alt="" />
                                     <h3 className='text-lg font-bold text-start font-montserrat'>Gestión de facturas con IA</h3>
@@ -161,7 +161,7 @@ const Who = () => {
                             </div>
 
                             {/* 4th */}
-                            <div className='w-full md:w-[20rem] lg:w-[22rem]'>
+                            <div className='w-full md:w-[20rem] lg:w-[18rem]'>
                                 <div className='flex flex-col md:flex-row gap-2 md:items-center '>
                                     <Image src="/who_1_6.png" width="60" height="60" alt="" />
                                     <h3 className='text-lg font-bold text-start font-montserrat'>Informes customizables</h3>
@@ -170,7 +170,7 @@ const Who = () => {
                             </div>
 
                             {/* 5th */}
-                            <div className='w-full md:w-[20rem] lg:w-[22rem]'>
+                            <div className='w-full md:w-[20rem] lg:w-[18rem]'>
                                 <div className='flex flex-col md:flex-row gap-2 md:items-center '>
                                     <Image src="/who_1_7.png" width="60" height="60" alt="" />
                                     <h3 className='text-lg font-bold text-start font-montserrat'>Alertas inteligentes</h3>
@@ -179,7 +179,7 @@ const Who = () => {
                             </div>
 
                             {/* 6th */}
-                            <div className='w-full md:w-[20rem] lg:w-[22rem]'>
+                            <div className='w-full md:w-[20rem] lg:w-[18rem]'>
                                 <div className='flex flex-col md:flex-row gap-2 md:items-center '>
                                     <Image src="/who_1_8.png" width="60" height="60" alt="" />
                                     <h3 className='text-lg font-bold text-start w-full'>
@@ -189,7 +189,7 @@ const Who = () => {
                             </div>
 
                             {/* 7th */}
-                            <div className='w-full md:w-[20rem] lg:w-[22rem]'>
+                            <div className='w-full md:w-[20rem] lg:w-[18rem]'>
                                 <div className='flex flex-col md:flex-row gap-2 md:items-center '>
                                     <Image src="/who_1_1.png" width="60" height="60" alt="" />
                                     <h3 className='text-lg font-bold text-start font-montserrat'>
@@ -203,7 +203,7 @@ const Who = () => {
                     {activeButton === 3 && (
                         <>
                             {/* 1st */}
-                            <div className='w-full md:w-[20rem] lg:w-[22rem]'>
+                            <div className='w-full md:w-[20rem] lg:w-[18rem]'>
                                 <div className='flex flex-col md:flex-row gap-2 md:items-center '>
                                     <Image src="/who_1_2.png" width="60" height="60" alt="" />
                                     <h3 className='text-lg font-bold text-start font-montserrat'>Panel de control financiero</h3>
@@ -211,7 +211,7 @@ const Who = () => {
                                 <p className='text-base text-start my-2 font-dm_sans'>Vistas personalizadas con la info que elijas para tener el control total de tu tesorería.</p>
                             </div>
                             {/* 2nd */}
-                            <div className='w-full md:w-[20rem] lg:w-[22rem]'>
+                            <div className='w-full md:w-[20rem] lg:w-[18rem]'>
                                 <div className='flex flex-col md:flex-row gap-2 md:items-center '>
                                     <Image src="/who_1_3.png" width="60" height="60" alt="" />
                                     <h3 className='text-lg font-bold text-start font-montserrat'>Buscador de transacciones</h3>
@@ -220,7 +220,7 @@ const Who = () => {
                             </div>
 
                             {/* 5th */}
-                            <div className='w-full md:w-[20rem] lg:w-[22rem]'>
+                            <div className='w-full md:w-[20rem] lg:w-[18rem]'>
                                 <div className='flex flex-col md:flex-row gap-2 md:items-center '>
                                     <Image src="/who_1_6.png" width="60" height="60" alt="" />
                                     <h3 className='text-lg font-bold text-start font-montserrat'>Informes customizables</h3>
@@ -229,7 +229,7 @@ const Who = () => {
                             </div>
 
                             {/* 6th */}
-                            <div className='w-full md:w-[20rem] lg:w-[22rem]'>
+                            <div className='w-full md:w-[20rem] lg:w-[18rem]'>
                                 <div className='flex flex-col md:flex-row gap-2 md:items-center '>
                                     <Image src="/who_1_7.png" width="60" height="60" alt="" />
                                     <h3 className='text-lg font-bold text-start font-montserrat'>Alertas inteligentes</h3>
@@ -238,7 +238,7 @@ const Who = () => {
                             </div>
 
                             {/* 7th */}
-                            <div className='w-full md:w-[20rem] lg:w-[22rem]'>
+                            <div className='w-full md:w-[20rem] lg:w-[18rem]'>
                                 <div className='flex flex-col md:flex-row gap-2 md:items-center '>
                                     <Image src="/who_1_8.png" width="60" height="60" alt="" />
                                     <h3 className='text-lg font-bold text-start w-full'>
@@ -248,7 +248,7 @@ const Who = () => {
                             </div>
 
                             {/* 8th */}
-                            <div className='w-full md:w-[20rem] lg:w-[22rem]'>
+                            <div className='w-full md:w-[20rem] lg:w-[18rem]'>
                                 <div className='flex flex-col md:flex-row gap-2 md:items-center '>
                                     <Image src="/who_1_1.png" width="60" height="60" alt="" />
                                     <h3 className='text-lg font-bold text-start font-montserrat'>

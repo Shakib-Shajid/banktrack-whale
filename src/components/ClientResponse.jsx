@@ -25,7 +25,7 @@ const ClientResponse = () => {
                 <p className="text-[#969494]">CEO de KS Asesores</p>
             </div>
 
-            <div className="w-full md:w-[90%] mx-auto hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7 my-10">
+            <div className="w-full md:w-[90%] mx-auto hidden md:flex flex-wrap gap-7 my-10">
                 {/* 1st */}
                 <div className="w-4/6 md:w-72 text-center mx-auto">
                     <div className="rating">
